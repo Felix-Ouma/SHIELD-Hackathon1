@@ -1,24 +1,203 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shield Hackathon</title>
-    <link rel="stylesheet" href="./Style.css">
-</head>
-<body>
- <header>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Portfolio Website HTML CSS| CodingNepal</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Portfolio.</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="https://www.facebook.com/profile.php?id=100091803387677" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://x.com/FelixOu61273238" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/felolearn/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/felixouma/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/Felix-Ouma" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
 
-    
- </header>
- <nav>
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Morraa Toffick</div>
+          <div class="text-three">Software Developer</div>
+          <div class="text-four">From PLP</div>
+        </div>
+        <div class="button">
+          <a href="https://drive.google.com/file/d/1_tnbXx7l9dTIQNVS_i4w4vB1WXsVUY57/view?usp=drive_link" target="_blank"><button>Hire Me</button></a>
+        </div>
+      </div>
+    </section>
 
- </nav>
- <section>
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="https://i.pinimg.com/564x/62/fb/9c/62fb9c8134f663da83c207736845c57e.jpg" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">Tech Drives My Passion</div>
+            <p>
+              I am a dedicated software developer with a strong passion for crafting innovative and efficient solutions. My journey in the tech industry has seen me working on diverse projects, from frontend development at Boltshift to designing and developing the Mawingu Coffee website. With experience at Excite! Innovation and Emrose Care Services, I have honed my skills in creating user-friendly and impactful digital experiences.I specialize in frontend development, focusing on clean, maintainable code and seamless user interfaces. My goal is to continuously improve my craft and contribute to projects that make a difference.</p>
+            <div class="button">
+              <a href="https://drive.google.com/file/d/1_tnbXx7l9dTIQNVS_i4w4vB1WXsVUY57/view?usp=drive_link" target="_blank"><button>Download My</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
- </section>
- <footer>
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills Reflects Our Knowledge</div>
+            <p>Throughout my career as a software developer, I have gained extensive experience and proficiency in a variety of programming languages. These languages have enabled me to tackle diverse projects, from front-end development to back-end solutions, and have equipped me with the skills to deliver high-quality, efficient, and scalable software. Below are the programming languages in which I excel:</p>
+            <div class="experience">
+              <div class="num">1</div>
+              <div class="exp">
+                Year Of <br />
+                Experience
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic"><img src="https://i.pinimg.com/564x/94/5d/83/945d8320b2991e7345ea0dda5ee1b6bb.jpg" alt="HTML logo" height="50"></div>
+              <div class="per">HTML</div>
+            </div>
+            <div class="box">
+              <div class="topic"><img src="https://i.pinimg.com/564x/ac/26/26/ac262626eb1e924c85b8b68fe97c2213.jpg" alt="CSS logo" height="50"></div>
+              <div class="per">CSS</div>
+            </div>
+            <div class="box">
+              <div class="topic"><img src="https://i.pinimg.com/564x/00/e1/ee/00e1eecf4c38085b2101ce994deba1b8.jpg" alt="CSS logo" height="50"></div>
+              <div class="per">MySQL</div>
+            </div>
+            <div class="box">
+              <div class="topic"><img src="https://i.pinimg.com/564x/13/40/7c/13407c12f50f08d328800c3caef43f61.jpg" alt="JS logo" height="50"></div>
+              <div class="per">JS</div>
+            </div>
+            <div class="box">
+              <div class="topic"><img src="https://i.pinimg.com/564x/2d/3a/7d/2d3a7d7d1ad7adeded994de246f60c43.jpg" alt="php logo" height="50"></div>
+              <div class="per">PHP</div>
+            </div>
+            <div class="box">
+              <div class="topic"><img src="https://i.pinimg.com/564x/82/40/ac/8240ac872c818d2a39ef20d819fdbf0d.jpg" alt="React logo" height="50"></div>
+              <div class="per">React</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
- </footer>
-</body>
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>My Projects</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Boltshift Web App</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+            <div class="button">
+              <a href="https://boltshift.vercel.app/" target="_blank"><button>View Project</button></a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">Graphic Design</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="topic">Digital Marketing</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fab fa-android"></i>
+            </div>
+            <div class="topic">Icon Design</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-camera-retro"></i>
+            </div>
+            <div class="topic">Photography</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-tablet-alt"></i>
+            </div>
+            <div class="topic">Apps Devlopment</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic">Have Any Project?</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
+          <div class="button">
+            <button>Let's Chat</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">CodingLab</a> | &#169; 2021 All Rights Reserved</span>
+      </div>
+    </footer>
+
+    <script src="./Script.js"></script>
+  </body>
 </html>
